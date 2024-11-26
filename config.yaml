@@ -1,6 +1,6 @@
 projectName: Non-Human Identities
 jsonFilePath: ./input.json
-baseUrl: https://nhimg.org/
+baseUrl: https://nhimg.org
 portalHeading: Non-Human Identity Management Group
 portalDescription: >-
   Secure your assets from cyber/insider threats with our knowledge center on
