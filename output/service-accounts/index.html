@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        
+            Service Accounts
+                
+    </title>
+    <meta name="description" content="Service accounts are non-human identities used by applications or services to authenticate and interact with systems and services.">
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+    Non-Human Identity Management
+</title>
+<link rel="icon" type="image/x-icon" href="https://nhimg.org/favicon.ico">
+
+    
+        <link
+            href="https://fonts.googleapis.com/css2?family=Arial:wght@400;500;600&display=swap"
+            rel="stylesheet">
+        
+        <link
+            href="https://fonts.googleapis.com/css2?family=Helvetica:wght@500;600;700&display=swap"
+            rel="stylesheet">
+        
+            
+                <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.gracker.ai/style.min.css">
+                <link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+                <!-- and it's easy to individually load additional languages -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+
+                <script>hljs.highlightAll();</script>
+
+                <style>
+                    :root {
+                        --primary-color: #000000;
+                        --secondary-color: #FFFFFF;
+                        --background-color: #F0F0F0;
+                        --text-color: #333333;
+                        --accent-color: #FF5733;
+                        --font-primary: Arial, Arial, sans-serif;
+                        --font-secondary: Helvetica, Arial, sans-serif;
+                    }
+                </style>
+</head>
+
+<body>
+    <header class="header group" id="main-header">
+    <div class="navigation">
+        <div class="header-item item-left">
+            <div class="logo"><a href="https://nhimg.org/"><img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=700,fit=crop,q=95/dOqbJe6jweHoPWVn/nhimg-logo-new-AE0p6ezbv1FPjlX8.png" 
+                onerror="this.onerror=null; this.src='https://cdn.gracker.ai/logo-placeholder-image.png'" 
+                alt="Primary Image"  height="40" /></a></div>
+        </div>
+
+        <div class="header-item item-center">
+            <div class="menu-overlay"></div>
+            <nav class="menu">
+                <div class="mobile-menu-head">
+                    <div class="go-back">
+                        &lt;
+                    </div>
+                    <div class="current-menu-title"></div>
+                    <div class="mobile-menu-close">&times;</div>
+                </div>
+                <ul class="menu-main">
+                    <li>
+                        <a href="https://nhimg.org/">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://nhimg.org/general-equiry" class="btn btn-primary show-in-mobile demo-btn">
+                            Get Started
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-item item-right nav-right">
+            <a href="https://nhimg.org/general-equiry" class="btn btn-ghost dark hide-in-mobile">
+                Get Started
+            </a>
+            <div class="mobile-menu-trigger">
+                <span></span>
+            </div>
+        </div>
+
+
+
+    </div>
+</header>
+        <main class="homeMainInner">
+            <section class="hero">
+                <div>
+                    <ul class="breadcrumb">
+                        <li><a href="/">Home</a></li>
+                        <li class="seprator">/</li>
+                
+                        
+                
+                        <li>Service Accounts</li>
+                    </ul>
+                    <div class="title header">
+                        <h1>Service Accounts</h1>
+                    </div>
+                </div>
+                
+            </section>
+            <section class="category-section page-content">
+                <div class="content has-space">
+                    <p>
+                        Service accounts are non-human identities used by applications or services to authenticate and interact with systems and services.
+                    </p>
+                    
+                        <h2>Description</h2>
+
+                            
+                        <p>Service accounts are specialized accounts designed for automated processes and applications rather than individual users. These accounts facilitate secure, non-interactive authentication to perform tasks, access resources, and manage services without user intervention. They are essential in cloud computing, DevOps, and microservices architectures, allowing applications to communicate with each other securely. Unlike regular user accounts, service accounts typically have restricted permissions tailored to specific operational needs, minimizing security risks. They can be used for various purposes, including running background jobs, accessing APIs, or managing resources in cloud environments. Properly managing service accounts, including rotating credentials and applying the principle of least privilege, is crucial to maintaining security. Unlike traditional user accounts, they do not require a password reset, but their keys or tokens must be managed securely to prevent unauthorized access.</p>
+
+                            
+                        <h2>Examples</h2>
+
+                            
+                        <ul>
+<li>A cloud application using a service account to access a database.</li>
+<li>An automated CI/CD pipeline utilizing service accounts to deploy applications.</li>
+</ul>
+
+                            
+                        <h2>Additional Information</h2>
+
+                            
+                        <ul>
+<li>Service accounts can be created with specific roles and permissions to limit their access.</li>
+<li>They often use OAuth tokens, API keys, or certificates for authentication.</li>
+</ul>
+
+                            
+                        <h2>References</h2>
+
+                            
+                        <ul>
+<li><a href="https://delinea.com/blog/service-account-management-101">Service Account Management 101: Back to Basics</a></li>
+<li><a href="https://social.technet.microsoft.com/wiki/contents/articles/14500.sharepoint-2013-service-accounts/history.aspx">SharePoint 2013: Service Accounts</a></li>
+<li><a href="https://vladtalkstech.com/2013/01/sharepoint-2013-service-accounts-best-practices-explained.html">SharePoint 2013 Service Accounts Best Practices Explained</a></li>
+<li><a href="https://kubernetes.io/docs/reference/access-authn-authz/service-accounts-admin/">Managing Service Accounts</a></li>
+<li><a href="https://release.com/blog/how-to-create-and-configure-your-kubernetes-service-account">How to Create and Configure Your Kubernetes Service Account — Release</a></li>
+<li><a href="https://cloud.google.com/iam/docs/understanding-service-accounts">Understanding service accounts | IAM Documentation | Google Cloud</a></li>
+<li><a href="https://alstechtips.blogspot.com/2014/05/sharepoint-2013-service-account.html">SharePoint 2013: Service Account Configurations and Permissions</a></li>
+<li><a href="https://www.comparitech.com/net-admin/active-directory-service-account/">Active Directory Service Account</a></li>
+<li><a href="https://cloudberry.engineering/article/google-cloud-service-accounts-security-best-practices/">Google Cloud Service Accounts Security Best Practices</a></li>
+<li><a href="https://www.jhanley.com/blog/google-cloud-improving-security-with-impersonation/">Google Cloud – Improving Security with Impersonation</a></li>
+<li><a href="https://betterprogramming.pub/k8s-tips-using-a-serviceaccount-801c433d0023?gi=0f7abb3ecb6e">Kubernetes Tips: Using a ServiceAccount</a></li>
+<li><a href="https://medium.com/the-programmer/working-with-service-account-in-kubernetes-df129cb4d1cc">Working with Service Account In Kubernetes - SysopsMicro - Medium</a></li>
+<li><a href="https://vladtalkstech.com/2012/12/sharepoint-2013-service-accounts-best-practices-is-there-a-golden-solution-for-all-farms.html">SharePoint 2013 Service Accounts Best Practices! Is there a golden solution for all farms?</a></li>
+<li><a href="https://admantium.medium.com/kubernetes-api-how-custom-service-accounts-work-936709f18740">Kubernetes API: How Custom Service Accounts Work - Sebastian - Medium</a></li>
+<li><a href="https://medium.com/google-cloud/service-accounts-on-google-cloud-platform-add6ab4ec4fe">Service Accounts on Google Cloud Platform - Google Cloud - Community - Medium</a></li>
+<li><a href="https://cloud.google.com/blog/products/identity-security/understanding-gcp-service-accounts-three-common-use-cases">Understanding GCP service accounts: three common use-cases</a></li>
+<li><a href="https://gauravguptacloud.medium.com/service-account-in-kubernetes-2287d225eebe">Service Account in Kubernetes - Gaurav Gupta - Medium</a></li>
+<li><a href="https://vladtalkstech.com/2017/03/sharepoint-2016-service-accounts-recommendations.html">SharePoint 2016 Service Accounts Recommendations</a></li>
+<li><a href="https://thenewstack.io/kubernetes-access-control-exploring-service-accounts">Kubernetes Access Control: Exploring Service Accounts</a></li>
+<li><a href="https://cloud.google.com/iam/docs/best-practices-service-accounts">Best practices for using service accounts</a></li>
+<li><a href="https://www.toddklindt.com/blog/Lists/Posts/Post.aspx?ID=237">Todd Klindt&#39;s Office 365 Admin Blog</a></li>
+<li><a href="https://www.riskcompletefailure.com/2015/03/understanding-service-accounts.html">Understanding Service Accounts</a></li>
+<li><a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-service-accounts">Service Accounts</a></li>
+<li><a href="https://www.jhanley.com/blog/google-cloud-creating-and-authorizing-service-account-credentials-with-the-cli/">Google Cloud – Creating and Authorizing Service Account Credentials with the CLI</a></li>
+<li><a href="https://4sysops.com/archives/service-account-best-practices-part-1-choosing-a-service-account/">Service Account best practices Part 1: Choosing a Service Account</a></li>
+</ul>
+
+                            
+                </div>
+            </section>
+
+            
+
+
+        </main>
+        <script>
+            // Get all h2 elements
+            const h2Elements = document.querySelectorAll('h2');
+
+            // Loop through the h2 elements and find the one with the text 'References'
+            h2Elements.forEach(h2 => {
+                if (h2.textContent.trim() === 'References') {
+                    // Get the next sibling element, which should be the ul
+                    const nextElement = h2.nextElementSibling;
+
+                    // Check if the next element is a ul
+                    if (nextElement && nextElement.tagName === 'UL') {
+                        // Get all anchor tags inside the ul and add target="_blank"
+                        const anchorTags = nextElement.querySelectorAll('a');
+                        anchorTags.forEach(anchor => {
+                            anchor.setAttribute('target', '_blank');
+                        });
+                    }
+                }
+            });
+        </script>
+        <footer>
+    <div>
+        <div class="left-block">
+            <div class="logo">
+                <a href="https://nhimg.org/">
+                  <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=700,fit=crop,q=95/dOqbJe6jweHoPWVn/nhimg-logo-new-AE0p6ezbv1FPjlX8.png" 
+                       onerror="this.onerror=null; this.src='https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png'" 
+                       alt="Primary Image" 
+                       height="40" />
+                </a>
+              </div>
+            <div class="copyright">
+                © 2024
+            </div>
+        </div>
+        <div class="footer-content">
+            <nav class="footer-nav">
+                <ul>
+                    
+                        
+                            <li>
+                                <a href="https://www.linkedin.com/groups/13038250/" target="_blank" rel="noopener noreferrer">
+                                    LinkedIn
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://www.youtube.com/@NonHumanIdentityManagement" target="_blank" rel="noopener noreferrer">
+                                    YouTube
+                                </a>
+                            </li>
+                            
+                                
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+<script>
+    let scrollpos = window.scrollY;
+    const header = document.querySelector("header");
+    const navItems = document.querySelectorAll("nav .menu-item-has-children>a"); // Adjust the selector based on your menu items
+    const navSubItems = document.querySelectorAll("nav .menu-item-has-children .sub-menu.mega-menu"); // Adjust the selector based on your menu items
+
+    const add_class_on_scroll = () => header.classList.add("scroll");
+    const remove_class_on_scroll = () => header.classList.remove("scroll");
+
+    const add_class_on_hover = () => header.classList.add("hover");
+    const remove_class_on_hover = () => header.classList.remove("hover");
+
+    const check_scroll_position = () => {
+        scrollpos = window.scrollY;
+        if (scrollpos >= 80) {
+            add_class_on_scroll();
+        } else {
+            remove_class_on_scroll();
+        }
+    };
+
+    // Add or remove class based on scroll position
+    window.addEventListener("scroll", check_scroll_position);
+
+    // Add class on hover
+    navItems.forEach((item) => {
+        item.addEventListener("mouseenter", add_class_on_hover);
+        item.addEventListener("mouseleave", remove_class_on_hover);
+    });
+
+    // Add class on click
+    // navItems.forEach((item) => {
+    // 	item.addEventListener("click", add_class_on_hover);
+    // });
+
+    // Add class on hover
+    navSubItems.forEach((item) => {
+        item.addEventListener("mouseenter", add_class_on_hover);
+        item.addEventListener("mouseleave", remove_class_on_hover);
+    });
+
+    // Add class on click
+    navSubItems.forEach((item) => {
+        item.addEventListener("click", add_class_on_hover);
+    });
+    // Initial check when the page loads
+    document.addEventListener("DOMContentLoaded", check_scroll_position);
+    window.addEventListener("scroll", check_scroll_position);
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const dropdownButton = document.getElementById("dropdown-button");
+
+        if (dropdownButton) {
+            dropdownButton.addEventListener("click", () => {
+                document.body.classList.toggle("dropdown-open");
+            });
+        }
+    });
+
+    const menu = document.querySelector(".menu");
+    const menuMain = menu.querySelector(".menu-main");
+    const goBack = menu.querySelector(".go-back");
+    const menuTrigger = document.querySelector(".mobile-menu-trigger");
+    const closeMenu = menu.querySelector(".mobile-menu-close");
+    let subMenu;
+    menuMain.addEventListener("click", (e) => {
+        if (!menu.classList.contains("active")) {
+            return;
+        }
+        if (e.target.closest(".menu-item-has-children")) {
+            const hasChildren = e.target.closest(".menu-item-has-children");
+            showSubMenu(hasChildren);
+        }
+    });
+    goBack.addEventListener("click", () => {
+        hideSubMenu();
+    });
+    menuTrigger.addEventListener("click", () => {
+        toggleMenu();
+    });
+    closeMenu.addEventListener("click", () => {
+        toggleMenu();
+    });
+    document.querySelector(".menu-overlay").addEventListener("click", () => {
+        toggleMenu();
+    });
+    function toggleMenu() {
+        menu.classList.toggle("active");
+        document.querySelector(".menu-overlay").classList.toggle("active");
+    }
+    function showSubMenu(hasChildren) {
+        subMenu = hasChildren.querySelector(".sub-menu");
+        subMenu.classList.add("active");
+        subMenu.style.animation = "slideLeft 0.5s ease forwards";
+        const menuTitle =
+            hasChildren.querySelector(".chevronDown").parentNode.childNodes[0].textContent;
+        menu.querySelector(".current-menu-title").innerHTML = menuTitle;
+        menu.querySelector(".mobile-menu-head").classList.add("active");
+    }
+
+    function hideSubMenu() {
+        subMenu.style.animation = "slideRight 0.5s ease forwards";
+        setTimeout(() => {
+            subMenu.classList.remove("active");
+        }, 300);
+        menu.querySelector(".current-menu-title").innerHTML = "";
+        menu.querySelector(".mobile-menu-head").classList.remove("active");
+    }
+
+    window.onresize = function () {
+        if (this.innerWidth > 991) {
+            if (menu.classList.contains("active")) {
+                toggleMenu();
+            }
+        }
+    };
+
+</script>
+
+<script defer>
+    function updateLogoWidth() {
+        // Select elements
+        const ctaElement = document.querySelector('.item-right');
+        const logoElement = document.querySelector('.item-left');
+
+        // Get the computed width of CTA
+        const ctaWidth = ctaElement.getBoundingClientRect().width;
+    
+
+        // Apply the width to logo element
+        if (ctaWidth > 0) {
+            logoElement.style.width = `${ctaWidth}px`;
+        }
+    }
+
+    // Run on page load with a slight delay to ensure styles are applied
+    document.addEventListener('DOMContentLoaded', function () {
+        setTimeout(updateLogoWidth, 100);
+    });
+
+    // Run whenever window is resized
+    window.addEventListener('resize', updateLogoWidth);
+</script>
+</body>
+
+</html>

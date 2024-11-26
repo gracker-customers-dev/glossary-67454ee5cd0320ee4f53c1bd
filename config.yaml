@@ -1,0 +1,63 @@
+projectName: Non-Human Identities
+jsonFilePath: ./input.json
+baseUrl: https://nhimg.org/
+portalHeading: Non-Human Identity Management Group
+portalDescription: >-
+  Secure your assets from cyber/insider threats with our knowledge center on
+  Non-Human Identities.
+portalTitle: Non-Human Identity Management
+searchPlaceholder: Search for NHI Articles, White-Papers, and more...
+useAlphabetsCategory: true
+homeLink: https://nhimg.org/
+logoLink: https://nhimg.org/
+ctaText: Get Started
+aboutLink: https://nhimg.org/about
+productsLink: https://nhimg.org/
+logoImgUrl: >-
+  https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=700,fit=crop,q=95/dOqbJe6jweHoPWVn/nhimg-logo-new-AE0p6ezbv1FPjlX8.png
+ctaLink: https://nhimg.org/general-equiry
+copyrightText: © 2024
+faviconUrl: https://nhimg.org/favicon.ico
+googleTagManagerId: ''
+pagesTitle:
+  prefix: ''
+  suffix: ''
+categoryPagesTitle:
+  prefix: ''
+  suffix: ''
+templateRoot:
+  - ./templates
+  - ./templates
+homeTemplatePath: ./templates/homePageTemplate.ejs
+categoryTemplatePath: ./templates/categoryTemplate.ejs
+pageTemplatePath: ./templates/pagesTemplate.ejs
+outputDir: ./output
+socialLinks:
+  - platform: LinkedIn
+    url: https://www.linkedin.com/groups/13038250/
+  - platform: YouTube
+    url: https://www.youtube.com/@NonHumanIdentityManagement
+theme:
+  primaryColor: '#000000'
+  secondaryColor: '#FFFFFF'
+  backgroundColor: '#F0F0F0'
+  textColor: '#333333'
+  accentColor: '#FF5733'
+fonts:
+  - family: Arial
+    weights:
+      - 400
+      - 500
+      - 600
+  - family: Helvetica
+    weights:
+      - 500
+      - 600
+      - 700
+data:
+  - categoryName: default
+    categorySlug: /
+    pages:
+      - pageTitle: Off-Page SEO
+      - pageTitle: Compliance
+      - pageTitle: Customer Engagement
