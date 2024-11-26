@@ -38,7 +38,7 @@ socialLinks:
   - platform: YouTube
     url: https://www.youtube.com/@NonHumanIdentityManagement
 theme:
-  primaryColor: '#000000'
+  primaryColor: '#343fb0'
   secondaryColor: '#FFFFFF'
   backgroundColor: '#F0F0F0'
   textColor: '#333333'
